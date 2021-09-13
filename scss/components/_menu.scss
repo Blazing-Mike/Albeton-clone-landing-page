@@ -1,0 +1,109 @@
+@import "../utils/settings";
+//styles that belongs to menu
+
+.logo{
+    width: 60px;
+    height: 4rem;
+}
+
+.Navbar { 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    position: sticky;
+    transition: 0.5s;
+    border-bottom: 1px solid $grey;
+    padding: 30px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    .Navbar__Link-brand {
+        position: absolute;
+        top: 5px;
+      }
+      
+      .Navbar__items {
+        flex-direction: column;
+        display: none;
+        align-items: center;
+        padding: 5px 0;
+        margin: 1rem 0;
+        margin-top: 2rem;
+        transition: 0.5s;
+     
+          }
+    
+          .Navbar__toggleshow{
+            display: flex;
+            flex-direction: column;
+            background: $blue;
+            width: 100%;
+        
+           
+        }
+    
+    
+      .Navbar-toggle {
+        align-self: flex-start;
+        position: absolute;
+        cursor: pointer;
+        left: 120px;
+        display: flex;
+        align-items: center;
+      }
+    
+  
+
+  }
+  .Navbar-extra-items {
+    padding: 90px 10px;
+}
+
+.orange{
+    color: $orange;
+}
+
+
+@media screen and (min-width:850px){
+    .Navbar{
+    .Navbar-toggle {
+        display: none;
+    }
+    .Navbar__items {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 1rem;
+        position: absolute;
+        top: -9px;
+        left: 200px;
+       
+        
+        .Navbar-extra__nav{
+          align-items: flex-end;
+          margin-left: 35rem;
+          
+
+        }
+      }
+    }
+    
+  
+
+    }
+
+    @media screen and (min-width:850px){
+      .Navbar{
+      .Navbar-extra__nav{
+        display: none;
+      }
+    }
+    }
+    
+    @media screen and (min-width:1350px){
+      .Navbar{
+      .Navbar-extra__nav{
+        display: flex;
+      }
+    }
+    }

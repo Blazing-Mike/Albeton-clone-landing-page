@@ -1,0 +1,158 @@
+@import "../utils/settings";@import "../utils/settings";
+//big tablets and small screen laptops
+
+@media screen and (min-width:1200px){
+    .Navbar__items {
+           
+        .Navbar-extra__nav{
+          align-items: flex-end;
+          margin-left: 40rem;
+          
+
+        }
+      }
+  
+    .Hero__image{
+        max-width: 70rem; 
+        height: 600px;     
+        }
+
+    .making-music{
+        
+        .photo-one{
+            width: 24rem;
+        }
+        .photo-two{
+            width: 20rem;
+        }
+        .one{
+            left: 470px;
+            margin-top: 5rem;
+           
+        }
+        .yellow-bg{
+            padding:10rem 220px;
+        }
+        .two{
+            right: 20px;
+        }
+    
+    
+    }
+
+    .making-music__text{
+          margin-top: 35rem;
+          .para {
+              padding: 20px 250px;
+          }
+    }
+       
+    .location-container{
+        figure{
+            background-size: 30rem;
+           
+        }
+        figcaption{
+            text-align: center;
+        }
+
+        .location__text{
+            margin-bottom: 25rem;
+                .para {
+                    padding: 20px 250px;
+                }
+            
+        }
+    }
+    .focus-container{
+   
+        .focus-two-image-container{
+            padding: 5rem 25rem 6rem 6rem;
+           
+        }
+        .left-image{
+            width: 22rem;
+        }
+        .right-image{
+            width: 30rem;
+            
+        
+        }
+        .right-container{
+               right: 300px;
+              
+            }
+
+
+    }
+    .focus__text{
+        margin-top: 25rem;
+        
+        .para{
+            padding: 20px 250px;
+        }
+    }
+
+    .passionate-image-container{
+        padding: 2rem;
+        .passion-image{
+            max-width: 80rem;
+        }
+ 
+    }
+    .passionate__text{
+        margin-bottom: 15rem;
+        .para{
+            padding: 20px 250px;
+        }
+}
+    .employees-container {
+        margin: 1rem ;
+
+    .puprle-bg{
+     width: 60rem;
+     margin-bottom: 10rem;
+     height: 600px;
+     
+            
+    }
+    .employee-image-container-item{
+padding: 0 20px;
+    .employee-image-one{
+        width: 22rem;
+        margin-left: -3rem;
+        margin-top: -10rem;
+      
+    }
+    .employee-image-two{
+        width: 27rem;
+        margin-left: 360px;
+        margin-top: -7rem;
+    }
+ 
+    }
+   
+}
+
+.employees_text{
+  margin-top: 8rem;
+    .para{
+        padding: 10px 250px;
+    }
+  }
+.job-openings-container{
+    .job-opening-image{
+        width: 25rem;
+        height: min-content;
+    }
+    .job-opening-text{
+        width: 25rem;
+        height: 400px;
+        padding: 30px 5px;
+        line-height: 1.5;
+}
+}
+
+
+
+}

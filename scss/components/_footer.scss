@@ -1,0 +1,85 @@
+@import "../utils/settings";
+
+.brand-name{
+    padding: 10px 30px;
+}
+.footer{
+    padding: 10px 20px;
+        flex: 1;   
+
+  
+.footer-item{
+    width: 25rem;
+  
+    
+    margin: 1rem 0;
+}
+    .med-heading{
+        padding: 20px 0;
+    }
+    .email-input{
+        width: 20rem;
+        height: 2.2rem;
+    }
+    .email-input:focus{
+        border: 1px solid black;
+        outline: none;
+    }
+    .sign-up{
+        width: 5rem;
+        height: 2.2rem;
+        background: $blue;
+        border: transparent;
+        margin-left: -5rem;
+        color: white;
+        
+    }
+    .arrow-right{
+        border: solid black;
+        border-width: 0 2px 2px 0;
+    }
+   
+    .dropdown{
+        width: 9.3rem;
+        height: 2.2rem;
+        border: transparent;
+        background: $light-grey;
+        
+    }
+    option{
+        background: white;
+    }
+    option:active{
+        background: white;
+    }
+    #countries{
+        width: 10rem;
+    }
+}
+
+
+
+@media (min-width:700px){
+
+.footer{
+    justify-content: center;
+    flex-direction: row-reverse;
+
+    .nav-items{
+        flex-direction: row;
+        width: 45rem;
+        gap: 15px;
+    }
+    .email-input{
+        width: 22rem;
+        
+    }
+}
+
+
+
+
+
+
+    
+}

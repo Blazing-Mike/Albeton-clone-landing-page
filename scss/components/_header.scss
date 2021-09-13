@@ -1,0 +1,85 @@
+@import "../utils/settings";
+//styles that belongs to header
+
+.Hero__image-container{
+    margin: 20px 1rem;
+
+    .big-heading{
+        position: absolute;
+        font-size: 4rem;
+        color: $orange;
+        font-weight: 700;
+    }
+}
+.Hero__image{
+max-width: 30rem;
+ 
+}
+.Hero__text{
+    padding: 0 20px;
+    .para{
+        padding: 10px 0;
+    }
+}
+.making-music{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+.photo-two{
+    width: 10rem;
+}
+.yellow-bg{
+    background-color: $yellow;
+    padding:4rem 37px;
+}
+.one,.two{
+    position: absolute;
+    
+}
+.two{
+    right: 10px;
+}
+.one{
+    left: 20px;
+    z-index: 5;
+    margin-top: 3rem;
+}
+.two{
+    right: 2px;
+}
+.photo-one{
+    width: 8.5rem;
+}
+}
+.making-music__text{
+ position: relative;
+margin-top: 20rem;
+ z-index: 5;
+
+ .para{
+     padding: 10px 20px;
+ }
+}
+
+@media screen and (min-width:460px){
+
+    .Hero__image{
+        max-width: 50rem;      
+        }
+        .making-music{
+            .photo-one{
+                width: 13rem;
+            }
+            .yellow-bg{
+                padding:6rem 58px;
+            }
+            .two{
+                right: 20px;
+            }
+        
+        
+        }
+  
+
+    
+}

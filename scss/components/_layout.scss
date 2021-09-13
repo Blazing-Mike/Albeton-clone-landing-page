@@ -1,0 +1,248 @@
+@import "../utils/settings";
+
+// main
+
+// location
+.location-container{
+.location-image{
+    max-width: 30rem;
+
+}
+figure{
+    background: url('/assets/images/poster-juanpe.jpg');
+    background-size: 25rem;
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+figcaption{
+    margin-top: -1rem;
+}
+.play-video{
+    width: 4rem;
+    position: absolute;
+   ;
+     
+}
+    .para{
+        padding: 10px 20px;
+    }
+  
+}
+
+//focus
+.focus-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+   
+.focus-two-image-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 5rem 3rem 1rem;
+    position: absolute;
+}
+    .green-bg{
+        background-color: $green;
+    }
+    .left-image{
+        width: 10rem;
+    }
+    .right-container{
+    position: absolute;
+       right: 10px;
+       margin-top: 6rem;
+    }
+    .right-image{
+        width: 10rem;
+        z-index: 5;
+    
+    }
+ 
+    
+}
+.focus__text{
+    position: relative;
+    margin-top: 25rem;
+     z-index: 5;
+    
+     .para{
+         padding: 10px 20px;
+     }
+}
+
+// passionate
+.passionate-image-container{
+    padding: 0 1rem;
+   
+}
+.passionate__text{
+    .para{
+        padding: 10px 20px;
+    }
+}
+//employees
+.employees-container {
+    margin-top: 3rem;
+ 
+    .employee-image-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+        padding: 5px 15px;
+    }
+
+.puprle-bg{
+    height: 250px;
+   width: 20rem;
+    background-color: $purple;
+    position: absolute;
+    margin: 10px 70px;
+   
+}
+
+       
+.employee-image-container-item{
+    z-index: 7;
+    
+
+
+.employee-image-one{
+    width: 9rem;
+    margin-left: 3rem;
+  
+}
+.employee-image-two{
+    width: 11rem;
+    margin-right: 40px;
+}
+}
+
+}
+
+.employees_text{
+  margin: 3rem 0;
+
+  .para{
+      padding: 10px 20px;
+  }
+}
+
+// JOB OPENING
+
+.job-openings-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  
+
+   .job-opening-image{
+       width: 20rem;
+       height: 320px;
+       
+       
+   } .job-opening-text{
+       background: $light-blue;
+       width: 20rem;
+       margin-top: -10px;
+       padding: 10px 20px;
+   }
+ .para{
+     padding-bottom: 10px;
+ }
+   .cta{
+       color: $blue;
+       font-weight: 500;
+   }
+}
+
+@media (min-width:460px){
+   
+    .location-container{
+        .location__text{
+            margin-bottom: 15rem;
+        }
+    }
+    .focus-container{
+   
+        .focus-two-image-container{
+            padding: 4rem 7rem 3rem 2rem;
+           
+        }
+        .left-image{
+            width: 12rem;
+        }
+        .right-image{
+            width: 17rem;
+            
+        
+        }
+        .right-container{
+               right: 20px;
+              
+            }
+
+
+    }
+    .focus__text{
+        margin-top: 15rem;
+        
+    
+        
+        
+         .para{
+             padding: 10px 20px;
+         }
+    }
+
+    .passionate-image-container{
+        padding: 2rem;
+ 
+    }
+    .passionate__text{
+        margin-bottom: 12rem;
+}
+    .employees-container {
+        margin: 1rem 4rem;
+
+    .puprle-bg{
+     width: 28rem;
+     margin-bottom: 10rem;
+     height: 350px;
+     
+            
+    }
+    .employee-image-container-item{
+padding: 0 20px;
+    .employee-image-one{
+        width: 11rem;
+        margin-left: 5rem;
+        margin-top: -5rem;
+      
+    }
+    .employee-image-two{
+        width: 13rem;
+        margin-right: 40px;
+        margin-top: -5rem;
+    }
+    }
+
+}
+.job-openings-container{
+    .job-opening-image{
+        width: 30rem;
+        height: auto;
+    }
+    .job-opening-text{
+        width: 30rem;
+        padding: 30px 5px;
+}
+}
+}

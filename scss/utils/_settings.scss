@@ -1,0 +1,32 @@
+// this contains variables for colors, height, border-radius, mixins, font-sizes, etc
+
+$light-blue:
+#b1c5ff ;
+$yellow:
+#fbffa7 ;
+$green: 
+#b6ffc0;
+$purple: 
+#d5b3ff;
+$blue:
+#0000ff ;
+$orange: 
+#ff764d;
+$grey: grey;
+$light-grey: lightgrey;
+
+.gap{
+    gap: 5px;
+}
+
+.gap-x{
+    gap: 1rem;
+}
+
+.gap-xx{
+    gap: 2rem;
+}
+
+.gap-xxx{
+    gap: 4rem;
+}

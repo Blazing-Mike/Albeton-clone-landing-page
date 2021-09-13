@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker&family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker&family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$heading-font: 'Noto Sans KR', sans-serif;
+$primary-font: 'DM Sans', sans-serif;
+$secondary-font: 'Blinker', sans-serif;
+$para-font: 'Montserrat', sans-serif;
+
+
+.para{
+    font-family: $para-font;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: $heading-font;
+}
+.big-heading{
+font-size: 2rem;
+}
+.med-heading{
+    font-size: 1.5rem;
+}
+.small-heading{
+    font-size: 1.2rem;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+.blue-text{
+    color: $blue;
+}

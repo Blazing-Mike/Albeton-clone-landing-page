@@ -1,0 +1,23 @@
+@import "../utils/settings";
+//styles that belongs to buttons
+
+
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #000000;
+    margin-left: 10px;
+}
+.arrow-right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	border: solid $blue;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 3px;
+  }
+  
+ 

@@ -4,6 +4,10 @@
 
 // location
 .location-container{
+
+    .location__text{
+        margin-bottom: 15rem;
+    }
 .location-image{
     max-width: 30rem;
 
@@ -28,6 +32,7 @@ figcaption{
     .para{
         padding: 10px 20px;
     }
+    
   
 }
 
@@ -67,7 +72,7 @@ figcaption{
 }
 .focus__text{
     position: relative;
-    margin-top: 25rem;
+    margin-top: 17rem;
      z-index: 5;
     
      .para{
